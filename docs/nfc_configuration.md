@@ -15,6 +15,7 @@ We use [react-native-nfc-manager](https://github.com/revtel/react-native-nfc-man
 
 2. Modify `Info.plist`
 -  Add the NFC usage description in Info.plist:
+
 ````xml
 <key>NFCReaderUsageDescription</key>
 <string>We need to use NFC</string>
@@ -23,6 +24,7 @@ We use [react-native-nfc-manager](https://github.com/revtel/react-native-nfc-man
 3. Enable NFC in Xcode 
 - Open Xcode → Signing & Capabilities → Add Capability → Near Field Communication Tag Reading.
 - This will generate an entitlements file (<your-project>.entitlements) containing:
+
 ````xml
 <key>com.apple.developer.nfc.readersession.formats</key>
 <array>
@@ -35,12 +37,14 @@ We use [react-native-nfc-manager](https://github.com/revtel/react-native-nfc-man
 
 1. Add NFC Permission in AndroidManifest.xml
 - Open android/app/src/main/AndroidManifest.xml and add:
+
 ````xml
 <uses-permission android:name="android.permission.NFC" />
 ````
 
 2. Support for Android 12+
 -  Open android/app/src/main/AndroidManifest.xml and add:
+
 ````gradle
 buildscript {
     ext {
