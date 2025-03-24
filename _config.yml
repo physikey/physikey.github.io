@@ -1,8 +1,18 @@
-title: PhysiKey
-description: PhysiKey SDK documentation.
+title: PhysiKey Docs
+description: PhysiKey SDK doc.
 theme: just-the-docs
 
 url: https://physikey.github.io
 
+favicon_ico: "/assets/images/favicon.ico"
+# logo: "/assets/images/physikey_black.png"
+
+nav_enabled: true
+
+color_scheme: dark
+
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  PhysiKey.xyz:
+    - https://PhysiKey.xyz
+
+
