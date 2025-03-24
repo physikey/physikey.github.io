@@ -1,56 +1,28 @@
 ---
-title: Getting Started
-layout: home
+title: Overview
+layout: default
 nav_order: 1
 ---
 
-# Getting Started
+# Overview
 
-To get started with the Access and Transfer components, follow the steps below:
+## Web3 Native Payment Cards
 
-## 1. Contact PhysiKey for Access
+PhysiKey cards enable secure **Web3 native payments** by leveraging **account abstraction**. These cards regenerate a private key, which then populates a **smart account**, allowing a familiar and seamless transaction execution.
 
-Before you can use these components, you'll need to contact PhysiKey to gain access to their services. PhysiKey will provide you with access to the necessary resources, including the node module, which you can integrate into your React Native application.
+## How It Works
 
-## 2. Necessary Configuration for Transfer Component
+1. **Card-Based Smart Accounts**  
+   Each card acts as a key to a smart account, eliminating the need for traditional seed phrases.
+   
+2. **Transaction Sponsorship via Pimlico**  
+   We use **Pimlico Paymaster** to cover ERC-20 transaction gas fees, streamlining the payment experience.  
+   - A **Pimlico account** is required to use this service.  
+   - [Contact us](https://www.physikey.xyz/) to integrate a **custom paymaster** if needed.
 
-To use the Transfer component, ensure that you access to the necessary configurations:
-- **Pimlico endpoint**: Your own Pimlico API endpoint.
-- **Token contract address**: The address of the token contract (e.g., USDC).
-- **RPC URL**: A valid RPC URL for the Ethereum network (or another supported blockchain network).
 
-These details must be supplied for the Transfer component to function correctly.
+With PhysiKey, you can seamlessly integrate **secure** Web3 transactions into your applications. Whether you're issuing new cards or accepting payments, our **familiar card** approach ensures a frictionless user experience.  
 
-## 3. Install the PhysiKey Node Module
+See [Getting Started](getting-started) to set up your environment and ensure a smooth onboarding experience. This guide will walk you through everything you need to begin using PhysiKey effectively.  
 
-Once you have access to the PhysiKey services, you can install the required node module. To install it, run the following command in your project:
-
-npm:
-````bash
-npm install physikeyRN
-````
-
-yarn:
-````bash
-yarn add physikeyRN
-````
-
-## 3. Import Components
-After installation, you can begin using the `Access` and `Transfer` components in your React Native project.
-
-### Access Component:
-````tsx
-import { Access } from "physikeyRN";
-````
-
-### Transfer Component:
-````tsx
-import { Transfer } from "physikeyRN";
-````
-
-For detailed usage instructions and examples, check out the full documentation for each component:
-- [Access Component Documentation](/access.html)
-- [Transfer Component Documentation](/transfer.html)
-
----
-
+Explore the [Card Issuance & Login](components/card-issuance-login) and [Accept Card Payment](components/accept) components to start building today.
