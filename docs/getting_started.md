@@ -56,4 +56,3 @@ For detailed usage instructions and examples, check out the full documentation f
 
 ---
 
-🚀🚀🚀

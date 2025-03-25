@@ -18,8 +18,9 @@ To obtain access, you will need to **contact our sales team**. We will discuss y
 
 Once approved, you’ll receive the SDK along with support to help you integrate PhysiKey into your application. More **custom integrations** can also be discussed based on your specific needs.
 
+For more details on how to get started, see our [Getting Started Guide](getting-started).
+
 ---
 
-For more details on how to get started, see our [Getting Started Guide](getting-started).
 
 
