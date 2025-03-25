@@ -11,6 +11,24 @@ The `Accept` component facilitates the transfer of **tokens** by using **PhysiKe
 
 This component is displayed as a modal, allowing users to complete the transfer process without leaving the current screen. Its visibility is controlled by state.
 
+<div style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 16px;">
+  <div style="text-align: center;">
+    <img src="../../images/scan.png" style="width: 100px; height: auto;" alt="Scan" />
+  </div>
+  <div style="text-align: center;">
+    <img src="../../images/recipient.png" style="width: 100px; height: auto;" alt="Scan" />
+  </div>
+  <div style="text-align: center;">
+    <img src="../../images/amount.png" style="width: 100px; height: auto;" alt="Scan" />
+  </div>
+  <div style="text-align: center;">
+    <img src="../../images/password.png" style="width: 100px; height: auto;" alt="Password" />
+  </div>
+  <div style="text-align: center;">
+    <img src="../../images/success.png" style="width: 100px; height: auto;" alt="Success" />
+  </div>
+</div>
+
 ## Props
 - `color` (string, optional): A hex value that determines the theme color of the component. It allows you to customize the color of buttons to match your theme.
 - `recipientAddress` (string): The address that will be accepting the payments.
