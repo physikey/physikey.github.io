@@ -92,7 +92,7 @@ export default App;
 
 ### Transaction Data & Important Considerations
 Ensure the transaction data includes the necessary information: 
-- **SSA Transactions**: By default are set up to use a Pimlico paymaster with `permissionless 0.1.31`.  Example transaction coming soon.
+- **SSA Transactions**: By default are set up to use a Pimlico paymaster with `permissionless`.  Example transaction coming soon.
 
 ### 3. Sign Process
 Once the Modal is opened, the user will:
